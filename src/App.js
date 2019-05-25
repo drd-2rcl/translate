@@ -14,8 +14,8 @@ class App extends Component {
       <div className="ui container">
         <div>
           Select a language:
-          <i className="flag br" onClick={() => this.onLanguageChange('português-br')} />
           <i className="flag jm" onClick={() => this.onLanguageChange('english')} />
+          <i className="flag br" onClick={() => this.onLanguageChange('português-br')} />
         </div>
         <UserCreate />
       </div>
